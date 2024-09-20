@@ -3,9 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome</title>
+    <title>Posts</title>
   </head>
   <body>
-    <h1>Welcome to homePage</h1>
+    <h1>Posts</h1>
+
+    <form id="add-post-form">
+      <label for="title">Title:</label><br />
+      <input type="text" id="title" name="title" /><br />
+      <button type="submit">Add Post</button>
+    </form>
+
+    <button id="get-posts-btn">Get Posts</button>
+    <div id="output"></div>
+
+    <label>**********************</label><br><br>
+
+    <button id="get-jocks-btn" style="background-color: yellowgreen;">Get Jocke</button>
+    <div id="outputJocks" style="background-color: cyan;"></div>
+
+
+    <script src="./js/main.js"></script>
   </body>
 </html>
